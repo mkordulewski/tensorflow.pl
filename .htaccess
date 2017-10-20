@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^((.*)\.)?(tensorflow\.pl)$ [NC]
+RewriteRule ^ https://www.tensorflow.org/ [R=302,L,NE]
