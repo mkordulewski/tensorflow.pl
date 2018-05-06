@@ -2,5 +2,5 @@
 
 * Polish TensorFlow website:
   * http://tensorflow.pl/
-* Redirects to TensorFlow website:
+* Based on main TensorFlow website:
   * https://www.tensorflow.org/
