@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en"
+      class="">
+<head>
+    <script>var a = window.devsite || {};
+    window.devsite = a;
+    a.readyCallbacks = [];
+    window.devsite.readyCallbacks = a.readyCallbacks;
+    a.ready = function (b) {
+        a.readyCallbacks.push(b)
+    };
+    window.devsite.ready = a.ready;
+    </script>
+    <meta charset="utf-8">
+    <meta name="xsrf_token" content="L8sRvSZwmDLFTayAd41n4fkITqd6aVhA7vk9DVY-Kk06MTUyNTY0MDY0OTc1MjMyMA"/>
+    <link rel="canonical" href="https://www.tensorflow.org/">
+    <link rel="alternate" href="https://www.tensorflow.org/?hl=zh-cn" hreflang="zh-Hans">
+    <link rel="alternate" href="https://www.tensorflow.org/" hreflang="en">
+    <link rel="alternate" href="https://tensorflow.google.cn/?hl=zh-cn" hreflang="zh-Hans-cn">
+    <link rel="alternate" href="https://tensorflow.google.cn/" hreflang="en-cn">
+    <link rel="alternate" href="https://www.tensorflow.org/" hreflang="x-default">
+    <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Organization",
+    "name": "TensorFlow",
+    "logo": "https://www.tensorflow.org/_static/images/tensorflow/logo.png",
+    "url": "https://www.tensorflow.org"
+  }
+
+    </script>
+    <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "TensorFlow",
+    "url": "https://www.tensorflow.org",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.tensorflow.org/s/results?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+
+    </script>
+    <link rel="shortcut icon" href="https://www.tensorflow.org/_static/72e7725e49/images/tensorflow/favicon.png">
+    <link rel="apple-touch-icon" href="https://www.tensorflow.org/images/apple-touch-icon-180x180.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+
+          href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"
+    >
+    <link rel="stylesheet"
+          href="https://www.tensorflow.org/_static/72e7725e49/css/devsite-tensorflow-orange.css">
+    <link rel="search"
+          type="application/opensearchdescription+xml"
+          title="TensorFlow"
+          href="https://www.tensorflow.org/s/opensearch.xml">
+    <script src="https://www.tensorflow.org/_static/72e7725e49/js/jquery-bundle.js"></script>
+    <meta property="og:site_name" content="TensorFlow">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tensorflow.org/">
+    <meta property="og:locale" content="en">
+    <script>
+        var ___gcfg = ___gcfg || {};
+        ___gcfg.lang = 'pl';
+    </script>
+    <title>TensorFlow</title>
+    <meta property="og:title" content="TensorFlow">
+    <meta name="description" content="An open source machine learning framework for everyone">
+    <meta property="og:description" content="An open source machine learning framework for everyone">
+    <meta property="og:image"
+          content="https://www.tensorflow.org/images/tf_logo_social.png">
+    <meta property="og:image:secure_url"
+          content="https://www.tensorflow.org/images/tf_logo_social.png">
+    <meta property="og:image:width"
+          content="1200">
+    <meta property="og:image:height"
+          content="675">
+    <link rel="stylesheet" href="https://www.tensorflow.org/index.css">
+</head>
+<body class="
+
+  devsite-landing-page
+
+
+
+
+
+               devsite-user-in-eu
+
+               devsite-header-no-lower-tabs"
+
+      id="top_of_page">
+<div class="devsite-wrapper">
+    <div class="devsite-top-section-wrapper
+            ">
+        <header class="devsite-top-section nocontent">
+            <div class="devsite-top-logo-row-wrapper-wrapper">
+                <div class="devsite-top-logo-row-wrapper">
+                    <div class="devsite-top-logo-row devsite-full-site-width">
+                        <button type="button" class="devsite-expand-section-nav devsite-header-icon-button
+                                       button-flat material-icons gc-analytics-event"
+                                data-category="Site-Wide Custom Events" data-label="Hamburger menu"></button>
+                        <div class="devsite-product-name-wrapper"><a href="https://www.tensorflow.org/"
+                                                                     class="devsite-site-logo-link gc-analytics-event"
+                                                                     data-category="Site-Wide Custom Events"
+                                                                     data-label="Site logo"><img
+                                src="https://www.tensorflow.org/_static/72e7725e49/images/tensorflow/lockup.png"
+                                class="devsite-site-logo" alt="TensorFlow"><span
+                                class="devsite-site-name devsite-product-name">TensorFlow</span></a></div>
+                        <div class="devsite-header-upper-tabs">
+                            <nav class="devsite-doc-set-nav devsite-nav devsite-overflow-tabs-scroll-wrapper">
+                                <ul class="devsite-doc-set-nav-tab-list devsite-overflow-tabs-scroll">
+                                    <li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+               "><a href="https://www.tensorflow.org/install/"
+                    class=" devsite-nav-tab
+                devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+
+
+                    data-category="Site-Wide Custom Events"
+
+                    data-label="Tab: Install"
+                                    >
+                                        Install
+                                    </a></li>
+                                    <li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+               "><a href="https://www.tensorflow.org/get_started/"
+                    class=" devsite-nav-tab
+                devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+
+
+                    data-category="Site-Wide Custom Events"
+
+                    data-label="Tab: Develop"
+                                    >
+                                        Develop
+                                    </a></li>
+                                    <li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+               "><a href="https://www.tensorflow.org/api_docs/"
+                    class=" devsite-nav-tab
+                devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+
+
+                    data-category="Site-Wide Custom Events"
+
+                    data-label="Tab: API r1.8"
+                                    >
+                                        API r1.8
+                                    </a></li>
+                                    <li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+               "><a href="https://www.tensorflow.org/deploy/"
+                    class=" devsite-nav-tab
+                devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+
+
+                    data-category="Site-Wide Custom Events"
+
+                    data-label="Tab: Deploy"
+                                    >
+                                        Deploy
+                                    </a></li>
+                                    <li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+               "><a href="https://www.tensorflow.org/extend/"
+                    class=" devsite-nav-tab
+                devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+
+
+                    data-category="Site-Wide Custom Events"
+
+                    data-label="Tab: Extend"
+                                    >
+                                        Extend
+                                    </a></li>
+                                    <li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+               "><a href="https://www.tensorflow.org/community/"
+                    class=" devsite-nav-tab
+                devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+
+
+                    data-category="Site-Wide Custom Events"
+
+                    data-label="Tab: Community"
+                                    >
+                                        Community
+                                    </a></li>
+                                    <li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+               "><a href="https://www.tensorflow.org/versions/"
+                    class=" devsite-nav-tab
+                devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+
+
+                    data-category="Site-Wide Custom Events"
+
+                    data-label="Tab: Versions"
+                                    >
+                                        Versions
+                                    </a></li>
+                                    <li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+               "><a href="https://www.tensorflow.org/tfrc/"
+                    class=" devsite-nav-tab
+                devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event"
+
+
+                    data-category="Site-Wide Custom Events"
+
+                    data-label="Tab: TFRC"
+                                    >
+                                        TFRC
+                                    </a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <form class="devsite-search-form"
+                              action="https://www.tensorflow.org/s/results/"
+                              method="GET"
+                              id="top-search"
+                              search-placeholder='Szukaj'>
+                            <div id="searchbox" class="devsite-searchbox"><input placeholder='Szukaj'
+
+                                                                                 type="text"
+                                                                                 class="devsite-search-field devsite-search-query"
+                                                                                 name="q"
+                                                                                 value=""
+                                                                                 autocomplete="off"
+
+                                                                                 aria-label="Pole wyszukiwania">
+                                <div class="devsite-search-image material-icons"></div>
+                            </div>
+                            <input type="hidden"
+                                   name="p"
+                                   id="search_project"
+                                   value="/"
+                                   data-project-name="TensorFlow"
+                                   data-project-path="/"
+                                   data-query-match=""><input type="hidden" class="suggest-project" value="TensorFlow"/>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="Android Developers"></div>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="Android Open Source Project"></div>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="Apigee Docs"></div>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="Google Cloud Platform"></div>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="Dialogflow"></div>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="Firebase"></div>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="Android Developers"></div>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="Link.app"></div>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="Nest Developers"></div>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="OpenThread"></div>
+                            <div class="suggest-project-metadata" data-home_url="https://www.orbitera.com/"
+                                 data-path="/" data-name="Orbitera"></div>
+                            <div class="suggest-project-metadata" data-home_url="/" data-path="/"
+                                 data-name="TensorFlow"></div>
+                        </form>
+                        <a class="devsite-header-link devsite-top-button button gc-analytics-event"
+                           href="//github.com/tensorflow"
+                           data-category="Site-Wide Custom Events"
+                           data-label="Site header link"
+                           track-type="navigateTo"
+                           track-name="github"
+                           track-metadata-position="nav">
+                            <div class="devsite-header-link-label">GitHub</div>
+                        </a>
+                        <button type="button" class="devsite-search-button devsite-header-icon-button button-flat
+                                       material-icons"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="devsite-collapsible-section">
+                <div class="devsite-header-background devsite-full-site-width">
+                    <div class="devsite-product-id-row devsite-full-site-width">
+                        <div class="devsite-product-description-row">
+                            <div class="devsite-product-description">
+
+                                An open source machine learning framework for everyone
+
+                            </div>
+                        </div>
+                        <div class="devsite-product-button-row
+            "><a
+
+                                href="https://www.tensorflow.org/get_started/eager"
+
+
+                                class="button "
+
+                        >
+                            Get started
+                        </a></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <script>
+            if (window.jQuery) {
+                $(document).ready(function () {
+                    if (window.devsite && window.devsite.search) {
+
+                        window.devsite.search.init('pl')
+                    }
+                });
+            }
+        </script>
+    </div>
+    <div id="gc-wrapper" itemscope itemtype="http://schema.org/Article"><input class="google-analytics-id-json"
+                                                                               type="hidden"
+                                                                               value="{&quot;dimensions&quot;: {&quot;dimension6&quot;: &quot;en&quot;, &quot;dimension4&quot;: &quot;TensorFlow&quot;, &quot;dimension5&quot;: &quot;pl&quot;, &quot;dimension3&quot;: false, &quot;dimension1&quot;: &quot;Signed out&quot;, &quot;dimension8&quot;: null}, &quot;gaid&quot;: &quot;UA-69864048-1&quot;}">
+        <script>
+            var dataLayer = [{
+                "freeTrialEligibleUser": "False",
+                "userCountry": "PL",
+                "language": {"requested": "pl", "served": "en"},
+                "projectName": "TensorFlow",
+                "scriptsafe": null,
+                "signedIn": "False",
+                "internalUser": "False"
+            }];
+        </script>
+
+
+        <div class="devsite-site-mask"></div>
+
+
+        <nav class="devsite-nav-responsive devsite-nav nocontent" tabindex="0">
+
+            <div class="devsite-nav-responsive-tabs-panel">
+
+
+                <nav class="devsite-nav-responsive-tabs devsite-nav">
+                    <ul class="devsite-nav-list">
+
+                        <li class="devsite-nav-item devsite-nav-item-heading">
+
+                            <a
+                                    href="https://www.tensorflow.org/install/?nav=true"
+
+                                    class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                "
+                                    data-category="Site-Wide Custom Events" data-label="Responsive Tab: Install">
+                                Install
+                            </a>
+
+
+                        </li>
+
+                        <li class="devsite-nav-item devsite-nav-item-heading">
+
+                            <a
+                                    href="https://www.tensorflow.org/get_started/?nav=true"
+
+                                    class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                "
+                                    data-category="Site-Wide Custom Events" data-label="Responsive Tab: Develop">
+                                Develop
+                            </a>
+
+
+                        </li>
+
+                        <li class="devsite-nav-item devsite-nav-item-heading">
+
+                            <a
+                                    href="https://www.tensorflow.org/api_docs/?nav=true"
+
+                                    class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                "
+                                    data-category="Site-Wide Custom Events" data-label="Responsive Tab: API r1.8">
+                                API r1.8
+                            </a>
+
+
+                        </li>
+
+                        <li class="devsite-nav-item devsite-nav-item-heading">
+
+                            <a
+                                    href="https://www.tensorflow.org/deploy/?nav=true"
+
+                                    class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                "
+                                    data-category="Site-Wide Custom Events" data-label="Responsive Tab: Deploy">
+                                Deploy
+                            </a>
+
+
+                        </li>
+
+                        <li class="devsite-nav-item devsite-nav-item-heading">
+
+                            <a
+                                    href="https://www.tensorflow.org/extend/?nav=true"
+
+                                    class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                "
+                                    data-category="Site-Wide Custom Events" data-label="Responsive Tab: Extend">
+                                Extend
+                            </a>
+
+
+                        </li>
+
+                        <li class="devsite-nav-item devsite-nav-item-heading">
+
+                            <a
+                                    href="https://www.tensorflow.org/community/?nav=true"
+
+                                    class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                "
+                                    data-category="Site-Wide Custom Events" data-label="Responsive Tab: Community">
+                                Community
+                            </a>
+
+
+                        </li>
+
+                        <li class="devsite-nav-item devsite-nav-item-heading">
+
+                            <a
+                                    href="https://www.tensorflow.org/versions/?nav=true"
+
+                                    class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                "
+                                    data-category="Site-Wide Custom Events" data-label="Responsive Tab: Versions">
+                                Versions
+                            </a>
+
+
+                        </li>
+
+                        <li class="devsite-nav-item devsite-nav-item-heading">
+
+                            <a
+                                    href="https://www.tensorflow.org/tfrc/"
+
+                                    class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                "
+                                    data-category="Site-Wide Custom Events" data-label="Responsive Tab: TFRC">
+                                TFRC
+                            </a>
+
+
+                        </li>
+
+
+                        <li class="devsite-nav-item devsite-nav-item-heading">
+                            <a href="//github.com/tensorflow"
+                               class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event"
+                               data-category="Site-Wide Custom Events"
+                               data-label="Responsive Tab: GitHub">
+                                GitHub
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+
+            </div>
+
+
+            <div class="devsite-nav-responsive-index-panel">
+                <div class="devsite-nav-index-back" tabindex="0"></div>
+                <nav>
+
+
+                </nav>
+            </div>
+
+        </nav>
+
+
+        <div class="devsite-main-content clearfix">
+
+
+            <article class="devsite-article">
+                <article class="devsite-article-inner">
+
+
+                    <section class="devsite-landing-row
+                        devsite-landing-row-3-up
+
+
+                        ">
+                        <div class="devsite-landing-row-group">
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+            ">
+                                    <img src="https://lh3.googleusercontent.com/e1x_Ibe0-wVv7UV2qlywHbLQgoRVbiNucQToH_kd8QmPaeXBT-6MIXnypF-8rEB9OFW27xCpNJSFmlh7CSD6qnHBrDVH4w=s688"
+                                         srcset="https://lh3.googleusercontent.com/e1x_Ibe0-wVv7UV2qlywHbLQgoRVbiNucQToH_kd8QmPaeXBT-6MIXnypF-8rEB9OFW27xCpNJSFmlh7CSD6qnHBrDVH4w=s688 1x,
+                https://lh3.googleusercontent.com/e1x_Ibe0-wVv7UV2qlywHbLQgoRVbiNucQToH_kd8QmPaeXBT-6MIXnypF-8rEB9OFW27xCpNJSFmlh7CSD6qnHBrDVH4w=s688 2x">
+                                </figure>
+                                <div class="devsite-landing-row-item-description
+                "><h3 id="tensorflow-18-has-arrived">TensorFlow 1.8 has arrived!</h3>
+                                    <div class="devsite-landing-row-item-description-content">
+                                        We're excited to announce the release of TensorFlow 1.8! Check out the
+                                        announcement to upgrade your code with ease.
+
+                                    </div>
+                                    <div class="devsite-landing-row-item-buttons"><a
+
+                                            href="https://github.com/tensorflow/tensorflow/releases/tag/v1.8.0"
+
+
+                                            class="button button-white"
+
+                                    >
+                                        Learn More
+                                    </a></div>
+                                </div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+            ">
+                                    <img src="https://lh3.googleusercontent.com/Ns1ea98duQ9csaHN7EQjl6SbnLMxg_ou9bLhZA8KLqbeSv7gg7XXGX1rqtWXgnjiJjBQpiTZWyxIhtxjnWPKTM27-J9T0QI=s688"
+                                         srcset="https://lh3.googleusercontent.com/Ns1ea98duQ9csaHN7EQjl6SbnLMxg_ou9bLhZA8KLqbeSv7gg7XXGX1rqtWXgnjiJjBQpiTZWyxIhtxjnWPKTM27-J9T0QI=s688 1x,
+                https://lh3.googleusercontent.com/Ns1ea98duQ9csaHN7EQjl6SbnLMxg_ou9bLhZA8KLqbeSv7gg7XXGX1rqtWXgnjiJjBQpiTZWyxIhtxjnWPKTM27-J9T0QI=s688 2x">
+                                </figure>
+                                <div class="devsite-landing-row-item-description
+                "><h3 id="tensorflow-dev-summit-2018">TensorFlow Dev Summit 2018</h3>
+                                    <div class="devsite-landing-row-item-description-content">
+                                        Thousands of people from the TensorFlow community participated in the second
+                                        TensorFlow Dev Summit. Watch the keynote and talks now.
+
+                                    </div>
+                                    <div class="devsite-landing-row-item-buttons"><a
+
+                                            href="https://www.youtube.com/playlist?list=PLQY2H8rRoyvxjVx3zfw4vA4cvlKogyLNN"
+
+
+                                            class="button button-white"
+
+                                    >
+                                        Watch Now
+                                    </a></div>
+                                </div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+            ">
+                                    <img src="https://lh3.googleusercontent.com/HWeYGqhnH8C8BSsYu8Jx46I_ubQnJ5Uea3n69Vee1CP-x0sfE614h1zPh1CeNzf7jnns_Fv_kiZdtH8spnhD_c4bgg-1mw=s688"
+                                         srcset="https://lh3.googleusercontent.com/HWeYGqhnH8C8BSsYu8Jx46I_ubQnJ5Uea3n69Vee1CP-x0sfE614h1zPh1CeNzf7jnns_Fv_kiZdtH8spnhD_c4bgg-1mw=s688 1x,
+                https://lh3.googleusercontent.com/HWeYGqhnH8C8BSsYu8Jx46I_ubQnJ5Uea3n69Vee1CP-x0sfE614h1zPh1CeNzf7jnns_Fv_kiZdtH8spnhD_c4bgg-1mw=s688 2x">
+                                </figure>
+                                <div class="devsite-landing-row-item-description
+                "><h3 id="announcing-tensorflowjs">Announcing TensorFlow.js!</h3>
+                                    <div class="devsite-landing-row-item-description-content">
+                                        Learn more about our new library for machine learning in the browser using
+                                        JavaScript.
+
+                                    </div>
+                                    <div class="devsite-landing-row-item-buttons"><a
+
+                                            href="https://js.tensorflow.org/"
+
+
+                                            class="button button-white"
+
+                                    >
+                                        Learn More
+                                    </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="devsite-landing-row
+                        devsite-landing-row-1-up
+                        devsite-landing-row-large-headings devsite-landing-row-50
+                        devsite-background devsite-background-grey
+                        ">
+                        <header class="devsite-landing-row-header">
+                            <div class="devsite-landing-row-header-text"><h2 id="about-tensorflow">About TensorFlow</h2>
+                            </div>
+                        </header>
+                        <div class="devsite-landing-row-group">
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <div class="devsite-landing-row-item-media">
+                                    <div class="devsite-landing-row-item-youtube">
+                                        <iframe
+                                                class="devsite-embedded-youtube-video"
+                                                data-video-id="mWl45NkFBOc"
+                                                data-autohide="1"
+                                                data-showinfo="0"
+                                                frameborder="0"
+                                                allowfullscreen=""
+                                        ></iframe>
+                                    </div>
+                                </div>
+                                <div class="devsite-landing-row-item-description">
+                                    <div class="devsite-landing-row-item-description-content"><p>TensorFlow™ is an open
+                                        source software library for high
+                                        performance numerical computation. Its flexible architecture allows
+                                        easy deployment of computation across a variety of platforms (CPUs,
+                                        GPUs, TPUs), and from desktops to clusters of servers to mobile and
+                                        edge devices. Originally developed by researchers and engineers from
+                                        the Google Brain team within Google’s AI organization, it comes with
+                                        strong support for machine learning and deep learning and the
+                                        flexible numerical computation core is used across many other
+                                        scientific domains.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="devsite-landing-row
+                        devsite-landing-row-4-up
+                        devsite-landing-row-logos
+
+                        ">
+                        <header class="devsite-landing-row-header">
+                            <div class="devsite-landing-row-header-text"><h2 id="companies-using-tensorflow">Companies
+                                using TensorFlow</h2></div>
+                        </header>
+                        <div class="devsite-landing-row-group">
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://www.airbnb.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/airbnb.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://www.amd.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/amd.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://nvidia.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/nvidia.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://www.uber.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/uber.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="devsite-landing-row
+                        devsite-landing-row-4-up
+                        devsite-landing-row-logos
+
+                        ">
+                        <div class="devsite-landing-row-group">
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://www.sap.com/index.html"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/sap.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://www.kakaocorp.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/kakao.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://deepmind.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/deepmind.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://dropbox.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/dropbox.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="devsite-landing-row
+                        devsite-landing-row-4-up
+                        devsite-landing-row-logos
+
+                        ">
+                        <div class="devsite-landing-row-group">
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://ebay.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/ebay.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://www.google.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/google.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://snapchat.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/snapchat.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://intel.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/intel.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="devsite-landing-row
+                        devsite-landing-row-4-up
+                        devsite-landing-row-logos
+
+                        ">
+                        <div class="devsite-landing-row-group">
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://coca-cola.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/coca_cola.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://www.mi.com/en/"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/xiaomi.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://www.qualcomm.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/qualcomm.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                            <div class="devsite-landing-row-item
+
+
+
+
+  ">
+                                <figure class="devsite-landing-row-item-image
+               devsite-landing-row-item-custom-image
+
+               "><a href="https://twitter.com"
+                                ><img src="https://www.tensorflow.org/skelimages/partner-logos/twitter.192.png"
+                                      class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                <div class="devsite-landing-row-item-description
+                "></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="devsite-landing-row
+                        devsite-landing-row-1-up
+
+
+                        ">
+                        <header class="devsite-landing-row-header">
+                            <div class="devsite-landing-row-header-text">
+                                <p class="devsite-landing-row-description">
+                                    <section class="expandable devsite-landing-partner-logos">
+                                <p class="expand-control showalways"><span class="see-more-closed">See More</span><span
+                                        class="see-more-open">See Less</span><span class="material-icons">keyboard_arrow_down</span>
+                                </p>
+                                <section class="devsite-landing-logo-container">
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.360.cn"><img src="/skelimages/partner-logos/360.jpg"
+                                                                               class="devsite-landing-row-item-custom-image-icon"></a>
+                                        </figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://3dr.com"><img
+                                                src="/skelimages/partner-logos/3D_robotics.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="http://www.airbus.com"><img
+                                                src="/skelimages/partner-logos/airbus.192.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.arm.com"><img
+                                                src="/skelimages/partner-logos/arm.192.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                </section>
+                                <section class="devsite-landing-logo-container">
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://caicloud.io"><img
+                                                src="/skelimages/partner-logos/caicloud.jpg"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://castbox.fm/"><img
+                                                src="/skelimages/partner-logos/castbox.jpg"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.ceva-dsp.com"><img
+                                                src="/skelimages/partner-logos/ceva.192.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.cmcm.com"><img
+                                                src="/skelimages/partner-logos/cheetah.jpg"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                </section>
+                                <section class="devsite-landing-logo-container">
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://us.ciandt.com"><img
+                                                src="/skelimages/partner-logos/cit.192.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.ibm.com"><img
+                                                src="/skelimages/partner-logos/ibm.192.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.jd.com"><img
+                                                src="/skelimages/partner-logos/jd.192.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.lenovo.com"><img
+                                                src="/skelimages/partner-logos/lenovo.jpg"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                </section>
+                                <section class="devsite-landing-logo-container">
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.liulishuo.com"><img
+                                                src="/skelimages/partner-logos/liulishuo.jpg"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.mediatek.com"><img
+                                                src="/skelimages/partner-logos/mediatek.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.mobvoi.com"><img
+                                                src="/skelimages/partner-logos/mobvoi.jpg"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.musical.ly"><img
+                                                src="/skelimages/partner-logos/musically.jpg"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                </section>
+                                <section class="devsite-landing-logo-container">
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="http://www.163.com"><img
+                                                src="/skelimages/partner-logos/netease.jpg"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.quantiphi.com"><img
+                                                src="/skelimages/partner-logos/quantiphi.192.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.movidius.com"><img
+                                                src="/skelimages/partner-logos/movidius.192.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.nersc.gov"><img
+                                                src="/skelimages/partner-logos/nersc.png"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                </section>
+                                <section class="devsite-landing-logo-container">
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="http://www.sinovationventures.com"><img
+                                                src="/skelimages/partner-logos/sinovation.jpg"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo">
+                                        <figure class="devsite-partner-logo devsite-landing-row-item-custom-image"><a
+                                                href="https://www.unisound.com"><img
+                                                src="/skelimages/partner-logos/unisound.jpg"
+                                                class="devsite-landing-row-item-custom-image-icon"></a></figure>
+                                    </div>
+                                    <div class="devsite-landing-partner-logo"></div>
+                                    <div class="devsite-landing-partner-logo"></div>
+                                </section>
+                    </section>
+                    </p>
+        </div>
+        </header></section>
+
+
+        </article>
+        </article>
+
+
+    </div>
+
+
+    <footer class="devsite-footer-linkboxes nocontent
+               devsite-footer-linkboxes-all-backup
+               ">
+        <nav class="devsite-full-site-width">
+            <ul class="devsite-footer-linkboxes-list">
+                <li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3
+                        class="devsite-footer-linkbox-heading">Bądź w kontakcie</h3>
+                    <ul class="devsite-footer-linkbox-list">
+                        <li class="devsite-footer-linkbox-item"><a href="//medium.com/tensorflow"
+                                                                   class="gc-analytics-event"
+                                                                   data-category="Site-Wide Custom Events"
+                                                                   data-label="Footer Blog Link">
+                            Blog
+                        </a></li>
+                        <li class="devsite-footer-linkbox-item"><a href="//github.com/tensorflow/"
+                                                                   class="gc-analytics-event"
+                                                                   data-category="Site-Wide Custom Events"
+                                                                   data-label="Footer GitHub Link">
+                            GitHub
+                        </a></li>
+                        <li class="devsite-footer-linkbox-item"><a href="//twitter.com/tensorflow"
+                                                                   class="gc-analytics-event"
+                                                                   data-category="Site-Wide Custom Events"
+                                                                   data-label="Footer Twitter Link">
+                            Twitter
+                        </a></li>
+                        <li class="devsite-footer-linkbox-item"><a href="//youtube.com/tensorflow"
+                                                                   class="gc-analytics-event"
+                                                                   data-category="Site-Wide Custom Events"
+                                                                   data-label="Footer YouTube Link">
+                            YouTube
+                        </a></li>
+                    </ul>
+                </li>
+                <li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3
+                        class="devsite-footer-linkbox-heading">Pomoc</h3>
+                    <ul class="devsite-footer-linkbox-list">
+                        <li class="devsite-footer-linkbox-item"><a href="//github.com/tensorflow/tensorflow/issues"
+                                                                   class="gc-analytics-event"
+                                                                   data-category="Site-Wide Custom Events"
+                                                                   data-label="Footer Issue Tracker Link">
+                            Śledzenie problemów
+                        </a></li>
+                        <li class="devsite-footer-linkbox-item"><a
+                                href="//github.com/tensorflow/tensorflow/blob/master/RELEASE.md"
+                                class="gc-analytics-event"
+                                data-category="Site-Wide Custom Events"
+                                data-label="Footer Release Notes Link">
+                            Informacje o wersji
+                        </a></li>
+                        <li class="devsite-footer-linkbox-item"><a
+                                href="//stackoverflow.com/questions/tagged/tensorflow" class="gc-analytics-event"
+                                data-category="Site-Wide Custom Events"
+                                data-label="Footer Stack Overflow Link">
+                            Stack Overflow
+                        </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <footer class="devsite-utility-footer">
+        <nav class="devsite-utility-footer-nav devsite-nav devsite-full-site-width">
+            <div class="devsite-utility-footer-nav-left">
+                <form class="devsite-utility-footer-language" action="/i18n/setlang/" method="post"><input type="hidden"
+                                                                                                           name="xsrf_token"
+                                                                                                           value="L8sRvSZwmDLFTayAd41n4fkITqd6aVhA7vk9DVY-Kk06MTUyNTY0MDY0OTc1MjMyMA"/><input
+                        type="hidden" name="next" value="/"><select
+                        class="devsite-utility-footer-language-select kd-select" name="language"
+                        track-type="languageSelector" track-name="click">
+                    <option value="en"
+
+                            track-type="languageSelector" track-name="changed"
+                            track-metadata-original-language="pl"
+                            track-metadata-selected-language="en">
+                        English
+                    </option>
+                    <option value="pl"
+                            selected="selected"
+                            track-type="languageSelector" track-name="changed"
+                            track-metadata-original-language="pl"
+                            track-metadata-selected-language="pl">
+                        polski
+                    </option>
+                    <option value="zh-cn"
+
+                            track-type="languageSelector" track-name="changed"
+                            track-metadata-original-language="pl"
+                            track-metadata-selected-language="zh-cn">
+                        简体中文
+                    </option>
+                </select></form>
+                <span class="devsite-utility-footer-links"><a class="devsite-utility-footer-link gc-analytics-event"
+                                                              href="https://www.google.com/policies/terms/"
+                                                              data-category="Site-Wide Custom Events"
+                                                              data-label="Footer terms link"
+                                                              data-footer-link-id="terms"
+                >Warunki
+         </a><a class="devsite-utility-footer-link gc-analytics-event"
+                href="https://www.google.com/policies/privacy/"
+                data-category="Site-Wide Custom Events"
+                data-label="Footer privacy link"
+                data-footer-link-id="privacy"
+                >Prywatność
+         </a></span></div>
+        </nav>
+    </footer>
+</div>
+<script async defer src="//www.gstatic.com/feedback/api.js"></script>
+<script src="https://www.tensorflow.org/_static2/72e7725e49/jsi18n/"></script>
+<script src="https://www.tensorflow.org/_static/72e7725e49/js/script_foot_closure__pl.js"></script>
+<script src="https://www.tensorflow.org/_static/72e7725e49/js/script_foot.js"></script>
+<script>
+    (function ($) {
+
+        devsite.devsite.Init($, {
+                'ENABLE_BLOCKED_VIDEO_PLACEHOLDER': 0,
+                'SITE_NAME': 'tensorflow',
+                'FULL_SITE_SEARCH_ENABLED': 1,
+                'ENABLE_CLOUDTRACK': 0,
+                'VTAGS_ENABLED': 0,
+                'HISTORY_ENABLED': 0,
+                'VERSION_HASH': '72e7725e49',
+                'SCRIPTSAFE_DOMAIN': 'tensorflow-dot-google-developers.appspot.com',
+                'ENABLE_BLOCKED_LINK_TOOLTIP': 0,
+                'ALLOWED_HOSTS': ['.android.com', '.anvato.com', '.apigee.com', '.appspot.com', '.dialogflow.com', '.gonglchuangl.net', '.google.cn', '.google.com', '.googleplex.com', '.nest.com', '.openthread.io', '.openweave.io', '.orbitera.com', '.tensorflow.org'],
+                'BLOCK_RSS_FEEDS': 0
+            },
+            '[]', 'pl',
+            true, '',
+            {
+                "f62218c009ec029abef196bba5aa34cf": true,
+                "8de7a048f21618359bd37f5ce44be073": false,
+                "098dafe57affddc137df300142652cfd": false,
+                "8e03e230de0bd8a6fe173fdf172e8b3f": true,
+                "cb025a64a50094835616312f4774a53d": true,
+                "51470233c56fc1fde50f00b73c52b216": false,
+                "d169d485cf24243a263783dbe42029b1": true,
+                "039e5d84b87fd75807ffb37b7f1bbf2c": true,
+                "700def1a83e356c06c0925afb05de4b0": false,
+                "6749dcb526ce9bde6993550c7d928d24": true
+            }, '/',
+            'https://www.tensorflow.org/');
+    })(jQuery);
+
+
+    devsite.localInit = function () {
+
+    };
+
+</script>
+<script>
+    $('.devsite-utility-footer-language-select').each(function () {
+        $(this).change(function () {
+            $('.devsite-utility-footer-language').submit();
+        });
+    });
+</script>
+</div><span id="devsite-request-elapsed" data-request-elapsed="745.379924774"></span></body>
+</html>
