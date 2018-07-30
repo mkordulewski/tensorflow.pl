@@ -1,6 +1,6 @@
 # TensorFlow.pl
 
 * Polish TensorFlow website:
-  * http://tensorflow.pl/
+  * https://tensorflow.pl/
 * Based on main TensorFlow website:
   * https://www.tensorflow.org/
